@@ -1,8 +1,8 @@
 class Clnkr < Formula
   desc "A minimal coding agent CLI"
   homepage "https://github.com/clnkr-ai/clnkr"
-  url "https://github.com/clnkr-ai/clnkr/archive/refs/tags/v1.4.4.tar.gz"
-  sha256 "3bf278feef65d3787531856cd1a897f42fc43f6da114e16b6b5814096042f81c"
+  url "https://github.com/clnkr-ai/clnkr/archive/refs/tags/v1.4.5.tar.gz"
+  sha256 "8a07355550f52c9325d28cbab2740633bd0138d88d94e7ec1942eec9152d91c8"
   license "MIT"
 
   depends_on "go" => :build
