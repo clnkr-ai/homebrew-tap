@@ -8,7 +8,7 @@ class Clnkr < Formula
   depends_on "go" => :build
 
   def install
-    system "make", "build-all", "VERSION=#{version}"
+    system "make", "build", "VERSION=#{version}"
     bin.install "clnkr"
     bin.install "clnku"
     bin.install_symlink "clnkr" => "clnk"
